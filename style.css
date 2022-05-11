@@ -1,0 +1,208 @@
+#raji
+{
+    background:black;
+    height:80px;
+    width:100%;    
+}
+
+#left
+{
+
+    height:100%;
+    width:25%; 
+    float:left;    
+}
+
+#right
+{
+
+    height:100%;
+    width:75%; 
+    float:right;    
+}
+
+ #head
+ {
+    font-size:35px;
+    font-family:times new roman;
+    color:rgb(116, 238, 197);
+    margin:10px;
+ }
+
+ #head1
+ {
+    font-size:35px;
+    font-family:times new roman;
+    color:blue;
+    margin:10px;
+ }
+
+ #head2
+ {
+    font-size:35px;
+    font-family:times new roman;
+    color:rgb(116, 238, 197);
+    margin:10px;
+    margin-left: 50px;
+ }
+
+#text
+ {
+    font-size:20px;
+    font-family:times new roman;
+    color:rgb(233, 236, 15);
+    margin:10px;
+ }
+
+ #text1
+ {
+    font-size:20px;
+    font-family:times new roman;
+    color:black;
+    margin:10px;
+ }
+
+ #text2
+ {
+  font-size:25px;
+  font-family:times new roman;
+  color:white;
+   margin:50px;
+ }
+
+#navi li i:hover
+{
+color:black;
+}
+
+#navi li
+{
+list-style-type:none;
+display:inline;
+font-size:30px;
+}
+
+#navi li i
+{
+color:white;
+}
+
+#rtbxc
+{
+    background-image:url(picture/cct.jpg);
+    height:1000px;
+    width:100%;  
+    float:right; 
+}
+
+#name
+{
+    padding-bottom:10px;
+    font-size: 60px;
+    color:white;
+}
+
+.card:hover
+{ 
+  transform: scale(1.3);
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container 
+{
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides 
+{
+  display: all;
+}
+
+.prev, .next 
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next 
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text3 
+{
+  color:black;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext 
+{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot 
+{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover
+{
+  background-color: blue;
+}
+
+.fade 
+{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade 
+{
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade 
+{
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
